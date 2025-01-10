@@ -1,0 +1,150 @@
+/* App.css */
+body {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+  background-color: #0f0f0f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  color: #fff; /* Set font color to white */
+}
+
+.profile-pic {
+  display: block;
+  margin: 20px auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+h1 ,h2{
+  color: #fff; /* Set font color to white */
+  
+}
+/* Add this CSS */
+
+/* Add this CSS */
+.highlight {
+  color: #58ff33; /* Change this to your desired color */
+}
+
+
+.clo h1 {
+  margin: 0 10px; /* Adjust the spacing between the two elements as needed */
+}
+
+.card {
+  background-color: #0c0c0c;
+  border-radius: 8px;
+  box-shadow:0 0 5px #0df786;
+  padding: 20px;
+  margin: 20px 0;
+  width: 80%;
+  max-width: 600px;
+  margin-left: 50px;
+  color: #fff; /* Set font color to white */
+}
+.subcardprj{
+  background-color: #0c0c0c;
+  border-radius: 8px;
+  box-shadow:0 0 5px #0df786;
+  padding: 20px;
+  margin: 20px 0;
+
+}
+
+
+.neon-button {
+  position: relative;
+  display: inline-block;
+  width: 100px; /* Adjust the size as needed */
+  height: 50px;
+  background-color: #171515; /* Dark background */
+  border-radius: 10px;
+  border: 2px solid #0df786; /* Added border property */
+  color: #0df786; /* Text color */
+  font-size: 16px; /* Font size */
+  text-align: center;
+  line-height: 50px; /* Vertically center the text */
+  text-decoration: none; /* Remove underline from link */
+  box-shadow: 0 0 5px #0df786, 0 0 30px #0df786, 0 0 20px #0df786; /* Added box-shadow property */
+  transition: box-shadow 0.3s ease-in-out; /* Smooth transition */
+}
+
+.neon-button:hover {
+  box-shadow: 0 0 15px #0df786, 0 0 30px #0df786, 0 0 40px #0df786; /* Enhanced neon effect on hover */
+}
+
+.neon-button1 {
+  position: relative;
+  display: inline-block;
+  width: 150px; /* Adjust the size as needed */
+  height: 50px;
+  background-color: #171515; /* Dark background */
+  border-radius: 10px;
+  border: 2px solid #0df786; /* Added border property */
+  color: #0df786; /* Text color */
+  font-size: 16px; /* Font size */
+  text-align: center;
+  line-height: 50px; /* Vertically center the text */
+  text-decoration: none; /* Remove underline from link */
+  box-shadow: 0 0 5px #0df786, 0 0 30px #0df786, 0 0 20px #0df786; /* Added box-shadow property */
+  transition: box-shadow 0.3s ease-in-out; /* Smooth transition */
+}
+
+.neon-button1:hover {
+  box-shadow: 0 0 15px #0df786, 0 0 30px #0df786, 0 0 40px #0df786; /* Enhanced neon effect on hover */
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #0df786;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0f572c;
+}
+
+.projects ul {
+  list-style-type: none;
+  padding-right:10px;
+
+  display: flex;
+}
+
+.projects li {
+  margin: 10px 0;
+}
+
+.projects a {
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #0df786;
+  
+  text-decoration: none;
+}
+
+.projects a:hover {
+  color: white;
+}
+
+.about {
+  margin-top: 20px;
+}
+
+.read-the-docs {
+  color: #fff; /* Set font color to white */
+}
